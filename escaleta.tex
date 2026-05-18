@@ -1,0 +1,120 @@
+\documentclass[12pt,letterpaper]{article}
+
+% --- Configuración de Idioma y Tipografía Industrial (Celtx) ---
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{courier} 
+\renewcommand{\familydefault}{\ttdefault} % Todo en Courier
+
+% --- Alineación Izquierda de Guion ---
+\usepackage{ragged2e} 
+
+% --- Márgenes Estándar de la Industria ---
+\usepackage{geometry}
+\geometry{
+    letterpaper,
+    left=1.5in,   
+    right=1.0in,
+    top=1.0in,
+    bottom=1.0in
+}
+
+% --- Espaciado ---
+\usepackage{setspace}
+\setstretch{1.15} 
+\parindent 0in    
+
+% --- Contador Automático de Escenas ---
+\newcounter{numescena}
+\setcounter{numescena}{0}
+
+% --- Definición de Comandos de Entrada (Variables) ---
+\newcommand{\duration}[1]{\gdef\valduration{#1}}
+\newcommand{\scenetype}[1]{\gdef\valscenetype{#1}}
+\newcommand{\actors}[1]{\gdef\valactors{#1}}
+\newcommand{\notes}[1]{\gdef\valnotes{#1}}
+\newcommand{\desc}[1]{\gdef\valdesc{#1}}
+
+% --- Inicializador por defecto (Para evitar errores si se deja alguno vacío) ---
+\newcommand{\limpiardatos}{%
+    \gdef\valduration{---}%
+    \gdef\valscenetype{---}%
+    \gdef\valactors{---}%
+    \gdef\valnotes{---}%
+    \gdef\valdesc{}%
+}
+
+% --- Entorno Principal de la Escena ---
+% Uso: \begin{scene}{INT/EXT. LUGAR}{MOMENTO} ... \end{scene}
+\newenvironment{scene}[2]{%
+    \refstepcounter{numescena}%
+    \limpiardatos % Resetea las variables anteriores
+    \gdef\valhead{#1 - #2}% Guarda el encabezado
+}{%
+    % Aquí se ejecuta la impresión real respetando el orden del template CEDEC
+    \vspace{2.0em} 
+    \noindent\textbf{\arabic{numescena}. \valhead}%
+    \nopagebreak\vspace{0.4em}\par
+    
+    \noindent\textbf{DURACIÓN:} \valduration\par
+    \nopagebreak\noindent\textbf{TIPO DE ESCENA:} \valscenetype\par
+    \nopagebreak\noindent\textbf{PERSONAJES:} \valactors\par
+    \nopagebreak\noindent\textbf{OTROS DATOS:} \valnotes\par
+    \nopagebreak\vspace{0.6em}\par 
+    
+    \noindent\textbf{DESCRIPCIÓN:}\\\relax
+    \valdesc\par
+}
+
+% --- PORTADA ESTILO CELTX ---
+\begin{document}
+\RaggedRight
+
+\thispagestyle{empty}
+\vspace*{2.5in}
+\begin{center}
+    {\Huge \textbf{[SIN TÍTULO]}}\\[1cm]
+    {\large DRAFT: ESCALETA}\\[2cm]
+    Escrito por\\
+    \textbf{[CINCOSEIS]}
+\end{center}
+
+\vfill
+\noindent SERGIO GONZÁLEZ\\
+Contacto: [ Email / Teléfono]\hfill \today
+\newpage
+
+% --- INICIO DE LA ESCALETA ---
+\pagestyle{plain}
+\setcounter{page}{1}
+
+\textbf{SINOPSIS} \\
+KSJDKSDJKSD
+JASHDJAHDJKASD
+
+
+
+ASHJDGJKASGDHJKAGHJKDGHAJSDGHJSA
+\section*{\centering ACTO I}
+
+
+% EJEMPLO 1: Escrito en el orden sugerido
+\begin{scene}{INT. VESTÍBULO DEL TEATRO}{DÍA}
+    \duration{1' 30''}
+    \scenetype{HABLADA / CANTADA}
+    \actors{Carlos, Directora}
+    \notes{Efecto de eco de teatro vacío, partituras sobre el piano.}
+    \desc{Carlos (25) se presenta a las audiciones de la nueva obra musical. Tiembla de los nervios. La Directora, sentada en la penumbra del patio de butacas, le da una señal seca con la mano.}
+\end{scene}
+
+% EJEMPLO 2: El orden no importa. Escribimos primero la descripción y al final los actores.
+\begin{scene}{INT. ESCENARIO - MÁS TARDE}{DÍA}
+    \desc{Despechado por su fallo anterior, Carlos pide una segunda oportunidad para demostrar sus habilidades de baile. El ensamble musical arranca con un ritmo de zarzuela acelerado.}
+    \notes{Cambio de iluminación a tonos azules, piano en directo.}
+    \scenetype{COREOGRAFIADA / TOCADA}
+    \duration{2' 15''}
+    \actors{Carlos, Elenco de baile, Músicos}
+\end{scene}
+
+\end{document}

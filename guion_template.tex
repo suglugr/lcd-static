@@ -1,0 +1,105 @@
+\documentclass[12pt,letterpaper]{article}
+
+% --- Configuración de Idioma y Tipografía Industrial ---
+\usepackage[T1]{fontenc} % Manejo correcto de fuentes con tildes y eñes
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{courier} 
+\renewcommand{\familydefault}{\ttdefault} % Todo el documento en Courier
+
+% --- Alternativa robusta para evitar desbordamiento de márgenes ---
+\usepackage{ragged2e} % Paquete real y correcto para alineación izquierda limpia
+
+% --- Márgenes Estándar de la Industria (Hollywood/Celtx) ---
+\usepackage{geometry}
+\geometry{
+    letterpaper,
+    left=1.5in,   % Margen amplio para encuadernado
+    right=1.0in,
+    top=1.0in,
+    bottom=1.0in
+}
+
+% --- Espaciado ---
+\usepackage{setspace}
+\setstretch{1.15} 
+\parindent 0in    
+
+% --- Contador Automático de Escenas ---
+\newcounter{numescena}
+\setcounter{numescena}{0}
+
+% --- CLON DE ENCABEZADO CELTX ---
+\newcommand{\escena}[3]{%
+    \refstepcounter{numescena}%
+    \vspace{1.5em} 
+    \noindent\textbf{\arabic{numescena}. #1. #2 - #3}%
+    \vspace{0.8em}\par 
+}
+
+% --- FORMATO DE DIÁLOGO ESTILO CELTX ---
+\newcommand{\personaje}[1]{%
+    \vspace{0.6em}
+    \noindent\hspace{2.2in}\textbf{#1}\par
+}
+
+% Formato para la Acotación / Parentrencial
+\newcommand{\parentesis}[1]{%
+    \noindent\hspace{1.6in}(#1)\par
+    \vspace{-0.3em}
+}
+
+% Formato para el Bloque de Diálogo
+\newcommand{\dialogo}[1]{%
+    \noindent\hspace{1.0in}\parbox{3.5in}{\RaggedRight #1}\par
+    \vspace{0.6em}
+}
+
+% --- PORTADA ESTILO CELTX ---
+\begin{document}
+\RaggedRight % Fuerza la alineación de guion a la izquierda desde el inicio
+
+\thispagestyle{empty}
+\vspace*{2.5in}
+\begin{center}
+    {\Huge \textbf{[TÍTULO DE TU OBRA]}}\\[1cm]
+    {\large Escaleta / Guion de Producción Final}\\[2cm]
+    Escrito por\\
+    \textbf{[Tu Nombre o Seudónimo]}
+\end{center}
+
+\vfill
+\noindent Contacto:\\\relax
+[Tu Email]\\\relax
+[Tu Teléfono]\hfill \today
+\newpage
+
+% --- INICIO DEL LIBRETO ---
+\pagestyle{plain}
+\setcounter{page}{1}
+
+\escena{INT}{HABITACIÓN DE CARLOS}{DÍA}
+Carlos (25) duerme plácidamente bocarriba, tapado hasta la nariz. El despertador digital de la mesita de noche marca las 08:55 AM y comienza a emitir un pitido ensordecedor.
+
+Carlos lanza un manotazo a ciegas, tirando el aparato al suelo. El cristal se rompe. Abre un ojo, mira la hora entre las grietas y salta de la cama de un brinco.
+
+\personaje{CARLOS}
+\parentesis{asustado}
+¡No, no, no! ¡Llego tardísimo!
+
+Instintivamente se tropieza con las sábanas y cae de rodillas al suelo.
+
+\escena{EXT}{CALLES DE LA CIUDAD}{DÍA}
+Carlos corre desesperado por la acera esquivando peatones. Lleva la camisa mal abotonada y los cordones de los zapatos arrastrando por el suelo.
+
+El tráfico en la avenida principal está completamente colapsado. Las bocinas retumban. A lo lejos, el autobús que necesita cierra las puertas y arranca.
+
+\personaje{CARLOS}
+\dialogo{¡Espere! ¡Por favor, espere!}
+
+Carlos acelera el paso con el rostro desencajado, pero el vehículo se pierde entre el humo del escape.
+
+\escena{INT}{EDIFICIO CORPORATIVO - VESTÍBULO}{DÍA}
+Las puertas giratorias de cristal se mueven a toda velocidad. Carlos entra derrapando en el suelo de mármol pulido, empapado en sudor. Se detiene en seco frente al mostrador de recepción.
+
+\end{document}
