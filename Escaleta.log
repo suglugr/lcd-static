@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.29)  25 MAY 2026 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.29)  25 MAY 2026 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -292,73 +292,73 @@ Overfull \hbox (12.7798pt too wide) in paragraph at lines 117--118
 \T1/pcr/m/n/12 es obligado a huir pues M.G. asesina a Teódulo. En su vengansa 
  []
 
-
-Overfull \hbox (6.15451pt too wide) in paragraph at lines 125--126
+[2]
+Overfull \hbox (6.15451pt too wide) in paragraph at lines 126--127
 []\T1/pcr/m/n/12 El corrupto policía Sáncho intercepta a Amaury y le exige 
  []
 
 
-Overfull \hbox (13.3545pt too wide) in paragraph at lines 126--127
+Overfull \hbox (13.3545pt too wide) in paragraph at lines 127--128
 \T1/pcr/m/n/12 el robo del dinero, obligando a Amaury a huir por su vida.  
  []
 
-[2]
-Overfull \hbox (6.15451pt too wide) in paragraph at lines 127--128
+
+Overfull \hbox (6.15451pt too wide) in paragraph at lines 128--129
 []\T1/pcr/m/n/12 Amaury viaja a Texcoco para buscar a El Pelukaz (Eliseo), 
  []
 
 
-Overfull \hbox (27.7545pt too wide) in paragraph at lines 128--129
+Overfull \hbox (27.7545pt too wide) in paragraph at lines 129--130
 \T1/pcr/m/n/12 grupo de estafadores profesionales para diseñar un elaborado 
  []
 
 
-Overfull \hbox (27.7545pt too wide) in paragraph at lines 130--131
+Overfull \hbox (27.7545pt too wide) in paragraph at lines 131--132
 []\T1/pcr/m/n/12 Peluka se infiltra en su exclusiva partida de póker privada.  
  []
 
 
-Overfull \hbox (34.9545pt too wide) in paragraph at lines 131--132
+Overfull \hbox (34.9545pt too wide) in paragraph at lines 132--133
 \T1/pcr/m/n/12 trampas y lo humilla frente a los demás pasajeros, provocando 
  []
 
 
-Overfull \hbox (20.5545pt too wide) in paragraph at lines 132--133
+Overfull \hbox (20.5545pt too wide) in paragraph at lines 133--134
 []\T1/pcr/m/n/12 Amaury, usando el alias de Keli, se acerca a M.G. fingiendo 
  []
 
 
-Overfull \hbox (6.15451pt too wide) in paragraph at lines 132--133
+Overfull \hbox (6.15451pt too wide) in paragraph at lines 133--134
 \T1/pcr/m/n/12 odiar a Pelukaz y le propone una alianza para arruinarlo.  
  []
 
-
-Overfull \hbox (6.15451pt too wide) in paragraph at lines 139--140
+[3]
+Overfull \hbox (6.15451pt too wide) in paragraph at lines 140--141
 []\T1/pcr/m/n/12 El informante llega a la casa de apuestas, le dice a M.G. 
  []
 
 
-Overfull \hbox (6.15451pt too wide) in paragraph at lines 140--141
+Overfull \hbox (6.15451pt too wide) in paragraph at lines 141--142
 []\T1/pcr/m/n/12 M.G. entra en pánico e intenta recuperar desesperadamente 
  []
 
 
-Overfull \hbox (13.3545pt too wide) in paragraph at lines 140--141
+Overfull \hbox (13.3545pt too wide) in paragraph at lines 141--142
 \T1/pcr/m/n/12 su dinero pero aparecen los federales y Sáncho en el club.  
  []
 
-[3]
-Overfull \hbox (13.3545pt too wide) in paragraph at lines 141--142
+
+Overfull \hbox (13.3545pt too wide) in paragraph at lines 142--143
 []\T1/pcr/m/n/12 Levi obliga a Amaury a traicionar a Peluka, lo que provoca 
  []
 
 
-Overfull \hbox (6.15451pt too wide) in paragraph at lines 142--143
+Overfull \hbox (6.15451pt too wide) in paragraph at lines 143--144
 []\T1/pcr/m/n/12 Levi se lleva a M.G. a toda prisa de la escena del crimen 
  []
 
 
-Overfull \hbox (27.7545pt too wide) in paragraph at lines 142--143
+Overfull \hbox (27.7545pt too wide) in paragraph at lines 143--144
 \T1/pcr/m/n/12 para evitar que lo vinculen con el escándalo y los supuestos 
  []
 
@@ -380,7 +380,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,5n,65p,667b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/CincoSeis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/CincoSeis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Escaleta.pdf (5 pages, 36414 bytes).
+Output written on Escaleta.pdf (5 pages, 36403 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

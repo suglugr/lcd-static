@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1779744696.00985 "d:/User/Documents/curso_guion/Escaleta.tex" "Escaleta.pdf" "Escaleta" 1779744696.60326 0
+["pdflatex"] 1779744801.4917 "d:/User/Documents/curso_guion/Escaleta.tex" "Escaleta.pdf" "Escaleta" 1779744802.08676 0
   "C:/Users/CincoSeis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779135438 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/CincoSeis/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1777498959 13352208 6ffe084d9904eb98876d4fb6e6a31653 ""
   "C:/Users/CincoSeis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -34,9 +34,9 @@
   "C:/Users/CincoSeis/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/t1pcr.fd" 1585253778 835 d5895e9edc628f2be019beb2c0ec66df ""
   "C:/Users/CincoSeis/AppData/Local/Programs/MiKTeX/tex/latex/ragged2e/ragged2e.sty" 1687525147 10085 3dececaeed388e31285c366e124c0c4e ""
   "C:/Users/CincoSeis/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
-  "Escaleta.aux" 1779744696 329 307cbeae585f7054ffa39f20a68516aa "pdflatex"
-  "Escaleta.tex" 1779744694 8764 de83f5243b01e247088a212c94c6fad9 ""
-  "d:/User/Documents/curso_guion/Escaleta.tex" 1779744694 8764 de83f5243b01e247088a212c94c6fad9 ""
+  "Escaleta.aux" 1779744801 329 a1b8a32f3a9cdfbc7561712f07596f96 "pdflatex"
+  "Escaleta.tex" 1779744796 8777 dd15a6821382e4cd8f48e21ce8813f3c ""
+  "d:/User/Documents/curso_guion/Escaleta.tex" 1779744796 8777 dd15a6821382e4cd8f48e21ce8813f3c ""
   (generated)
   "Escaleta.aux"
   "Escaleta.log"
