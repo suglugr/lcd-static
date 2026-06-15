@@ -1,1 +1,3 @@
 {"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QLOGLINE:\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QDéjeme darle una ayudadita Don.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QEn cuanto te campaneen en la esquina va a salir el clavo.\\E$"}

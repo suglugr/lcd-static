@@ -1,0 +1,21 @@
+{
+  "name": "solarized-contrast",
+  "displayName": "solarized_contrast",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "solarized_contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized_contrast-color-theme.json"
+      }
+    ]
+  }
+}
