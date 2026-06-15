@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+
+% --- PAQUETES BÁSICOS Y IDIOMA ---
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+% --- TIPOGRAFÍA COURIER (Tipo máquina de escribir de la imagen) ---
+\usepackage{courier}
+\renewcommand{\familydefault}{\ttdefault} % Configura Courier como fuente principal
+
+% --- MÁRGENES MÁS GRANDES ---
+\usepackage{geometry}
+\geometry{
+    letterpaper,
+    left=1.5in,   % Margen izquierdo amplio para guion
+    right=1.5in,  % Margen derecho amplio
+    top=1.2in,    % Margen superior para dar aire al encabezado
+    bottom=1.2in  % Margen inferior para el pie de página
+}
+
+\usepackage{ragged2e}
+
+% --- CONFIGURACIÓN DE ENCABEZADOS Y PIES DE PÁGINA (Estilo image.png) ---
+\usepackage{fancyhdr}
+\usepackage{datetime} % Para poder manipular la hora si fuera necesario
+
+\pagestyle{fancy}
+\fancyhf{} % Borra los estilos por defecto
+
+% Grosor de las líneas (las dejamos en 0pt para que no haya líneas divisorias, igual que en la foto)
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Fuentes más chicas para los encabezados y pies (\scriptsize o \footnotesize)
+\newcommand{\estiloHeader}[1]{\textsf{\scriptsize #1}}
+
+% Parte Superior (Header)
+\lhead{\estiloHeader{16/10/23, 21:48}}             % Superior Izquierda: Fecha y Hora fija de la foto (o puedes usar \today)
+\chead{\estiloHeader{Celtx - Script My Project}}    % Superior Centro: Nombre del archivo / Proyecto
+
+% Parte Inferior (Footer)
+\lfoot{\estiloHeader{about:blank}}                  % Inferior Izquierda: Título/Ruta (en tu foto dice about:blank)
+\rfoot{\estiloHeader{\thepage/\pageref{LastPage}}}  % Inferior Derecha: Número de página formato X/Y
+
+% Paquete necesario para calcular el total de páginas (el "/10" de la imagen)
+\usepackage{lastpage}
+
+
+% --- CONFIGURACIÓN DE FORMATO DE GUION ---
+% (Ajustado para que mantenga el formato Courier y la alineación correcta)
+\newenvironment{scenedesc}{\vspace{1em}\par\noindent}{\vspace{1em}}
+
+\newenvironment{dialogue}[1]{
+    \vspace{0.5em}\par
+    \begin{center}\textbf{\MakeUppercase{#1}}\end{center}
+    \vspace{-0.5em}
+    \begin{list}{}{
+        \leftmargin=1.0in
+        \rightmargin=1.0in
+        \parsep=0pt
+    }\item[]
+}{
+    \end{list}\vspace{0.5em}
+}
+\newcommand{\parenthetical}[1]{\vspace{-0.3em}\begin{center}(#1)\end{center}\vspace{-0.3em}}
+
+
+% --- INICIO DEL DOCUMENTO ---
+\begin{document}
+\raggedright % Mantiene el alineado a la izquierda sin justificar, idéntico a los guiones
+
+% Nota: Si usas portadas independientes, heredarán este diseño. 
+% Si no quieres encabezados en la portada, puedes usar \thispagestyle{plain} dentro de ella.
+\input{portada}
+\input{escaleta}
+\newpage
+
+\input{Primer_escena}
+
+\end{document}
