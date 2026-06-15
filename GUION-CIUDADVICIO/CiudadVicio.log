@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.11)  14 JUN 2026 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.11)  14 JUN 2026 23:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,9 +271,6 @@ LaTeX Info: Redefining \% on input line 69.
 [4])
 
 [5] (Primer_escena.tex
-LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 3.
-
 
 [6]
 
@@ -301,17 +298,17 @@ L3 programming layer <2025-08-13>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4489 strings out of 468132
- 77890 string characters out of 5427303
- 511325 words of memory out of 5000000
- 33058 multiletter control sequences out of 15000+600000
- 632508 words of font info for 62 fonts, out of 8000000 for 9000
+ 4482 strings out of 468132
+ 77808 string characters out of 5427303
+ 512325 words of memory out of 5000000
+ 33054 multiletter control sequences out of 15000+600000
+ 631376 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,5n,79p,1085b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/CincoSeis-PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/CincoSeis-PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/CincoSeis-PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on CiudadVicio.pdf (14 pages, 64837 bytes).
+<C:/Users/CincoSeis-PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/CincoSeis-PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on CiudadVicio.pdf (14 pages, 55775 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

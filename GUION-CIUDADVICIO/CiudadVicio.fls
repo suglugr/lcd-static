@@ -105,9 +105,6 @@ INPUT .\escaleta.tex
 INPUT .\escaleta.tex
 INPUT escaleta.tex
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
-INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
-INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
-INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrb7t.tfm
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrb7t.vf
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrb8r.tfm
@@ -118,12 +115,9 @@ INPUT .\Primer_escena.tex
 INPUT Primer_escena.tex
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrb7t.tfm
-INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrro7t.tfm
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrb7t.vf
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrb8r.tfm
-INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrro7t.vf
-INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrro8r.tfm
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT CiudadVicio.aux
@@ -131,5 +125,3 @@ INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courie
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrb8a.pfb
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
-INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrro8a.pfb
-INPUT C:\Users\CincoSeis-PC\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrro8a.pfb
